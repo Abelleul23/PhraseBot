@@ -74,7 +74,7 @@ async def handle_message(update: Update, context: CallbackContext) -> None:
         writer_username = message.from_user.username
 
         print(text)
-        if "keyword" in text.lower():
+        if "django" in text.lower():
             # Get the message link
             message_link = f"https://t.me/{group_username}/{message.message_id}"
 
